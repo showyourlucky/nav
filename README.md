@@ -3,7 +3,7 @@
 ```shell
 ### 1.拉取项目
 mkdir /data && cd /data
-git clone https://github.com/zhanghao123321/znav.git
+git clone https://github.com/zhanghao123321/nav.git
 cd znav
 ### 2.按需修改docker-compose.image.yml文件
 
@@ -20,16 +20,16 @@ admin
 
 ```
 前台：
-![image](https://github.com/zhanghao123321/znav/blob/main/foreground.png)
+![image](https://github.com/zhanghao123321/nav/blob/main/foreground.png)
 
 后台：
-![image](https://github.com/zhanghao123321/znav/blob/main/background.png)
+![image](https://github.com/zhanghao123321/nav/blob/main/background.png)
 
 ## K8S部署
 ```shell
 ### 1.构建服务
 mkdir /data && cd /data
-git clone https://github.com/zhanghao123321/znav.git
+git clone https://github.com/zhanghao123321/nav.git
 cd znav
 kubectl apply -f mysql-pv.yaml
 kubectl apply -f mysql-deployment.yaml
