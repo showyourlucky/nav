@@ -30,7 +30,7 @@ admin
 ### 1.构建服务
 mkdir /data && cd /data
 git clone https://github.com/zhanghao123321/nav.git
-cd znav
+cd nav
 kubectl apply -f mysql-pv.yaml
 kubectl apply -f mysql-deployment.yaml
 kubectl apply -f backend-deployment.yaml
