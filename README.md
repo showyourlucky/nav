@@ -4,7 +4,7 @@
 ### 1.拉取项目
 mkdir /data && cd /data
 git clone https://github.com/zhanghao123321/nav.git
-cd znav
+cd nav
 ### 2.按需修改docker-compose.image.yml文件
 
 ### 3.运行打包镜像
